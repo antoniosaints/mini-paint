@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
+      integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Canva</title>
+  </head>
+  <body>
+    <section class="container">
+      <canvas width="900" height="500" id="canva"></canvas>
+
+      <div class="toolbar">
+        <button class="btn-toolbar active" id="pencil">
+          <i class="fa-solid fa-pen"></i>
+        </button>
+        <button class="btn-toolbar" id="eraser">
+          <i class="fa-solid fa-eraser"></i>
+        </button>
+        <button class="btn-toolbar" id="eraser">
+          <input type="color" />
+        </button>
+        <input type="range" min="5" max="50" />
+      </div>
+    </section>
+  </body>
+  <script src="scripts.js"></script>
+</html>
