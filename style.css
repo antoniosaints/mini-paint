@@ -26,6 +26,7 @@ body {
     flex-direction: column;
     border-radius: 10px;
     padding: 5px;
+    width: min-content;
     background-color: aliceblue;
     gap: 5px;
 }
@@ -48,6 +49,12 @@ canvas {
 .btn-toolbar > input[type="color"] {
     width: 100%;
     border: none;
+}
+
+input[type="range"] {
+    width: 100%;
+    border: none;
+    outline: none;
 }
 
 .active {
